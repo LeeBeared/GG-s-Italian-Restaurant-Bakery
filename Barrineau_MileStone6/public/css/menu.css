@@ -1,0 +1,28 @@
+body {
+    color: rgb(9, 176, 70);
+    font-size:20px;
+}
+html{
+    background:white;
+}
+.custNav a {
+    width: 10%;
+}
+h1 {
+    font-size: 40px;
+}
+.menuBox {
+    background: rgb(238, 246, 231);
+}
+
+@media screen and (max-width: 999px) {
+    .custNav a, #menuNav a {
+        float: left;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .custNav a, #menuNav a {
+        width: 10%;
+    }
+}

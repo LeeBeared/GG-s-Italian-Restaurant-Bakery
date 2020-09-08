@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <title>Restuarant About Us</title>
+</head>
+<body>
+    <center>
+        <nav class="custNav">
+            <a href="../webpages/aboutus.html"><img class="navBar" src="../photo/about.png" /></a>
+            <a href="../webpages/menu.html"><image class="navBar" src="../photo/menu.png"></image></a>
+            <a href="../webpages/home.html"><image class="logo" src="../photo/gg.png"></image></a>
+            <a href="../webpages/order.html"><image class="navBar" src="../photo/order.png"></image></a>
+            <a href="../webpages/gift.html"><img class="navBar" id="giftButton" src="../photo/gift.png" /></a>
+
+        </nav>
+    </center>
+
+
+    <center>
+        <div>
+            <p>Welcome to GG's Italian Resturant and Bakery</p>
+        </div><br /><br />
+                        <!-- Slideshow container -->
+                    <div class="slideshow-container56">
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide1.png" style="width:50%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide2.png" style="width:50%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide3.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide4.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide5.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide6.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide7.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide8.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide9.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide10.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide11.png" style="width:50%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="../photo/slideimages/slide12.png" style="width:50%">
+                            </div>
+                        </div>
+                        <div class="slideshow-container">
+
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide2.png" style="width:50%">
+                            </div>
+
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide3.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide4.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide5.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide6.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide7.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide8.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide9.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide10.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide11.png" style="width:50%">
+                            </div>
+                            <div class="mySlides4 fade4">
+                                <img src="../photo/slideimages/slide12.png" style="width:50%">
+                            </div>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides4 fade">
+                                <img src="../photo/slideimages/slide1.png" style="width:50%">
+                            </div>
+                        </div>
+                    </div>
+
+                        <br>
+        <script>
+            var slideIndex = 0;
+            var slideIndex2 = 0;
+            var slideIndex3 = 0;
+            var slideIndex4 = 0;
+            showSlides(); showSlides4();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3250);
+            }
+            function showSlides4() {
+                var i;
+                var slides4 = document.getElementsByClassName("mySlides4");
+                for (i = 0; i < slides4.length; i++) {
+                    slides4[i].style.display = "none";
+                }
+                slideIndex4++;
+                if (slideIndex4 > slides4.length) { slideIndex4 = 1 }
+                slides4[slideIndex4 - 1].style.display = "block";
+                setTimeout(showSlides4, 3250);
+            }
+        </script>
+        <style>
+            * {box-sizing:border-box}
+
+                    /* Slideshow container */
+                    .slideshow-container {
+                      max-width: 1000px;
+                      position: relative;
+                      margin: auto;
+                    }
+
+                    /* Hide the images by default */
+                    .mySlides,.mySlides4,.mySlides2,.mySlides3{
+                      display: none;
+                    }
+
+                    /* Next & previous buttons */
+                    .prev, .next {
+                      cursor: pointer;
+                      position: absolute;
+                      top: 50%;
+                      width: auto;
+                      margin-top: -22px;
+                      padding: 16px;
+                      color: white;
+                      font-weight: bold;
+                      font-size: 18px;
+                      transition: 0.6s ease;
+                      border-radius: 0 3px 3px 0;
+                      user-select: none;
+                    }
+
+                    /* Position the "next button" to the right */
+                    .next {
+                      right: 0;
+                      border-radius: 3px 0 0 3px;
+                    }
+
+                    /* On hover, add a black background color with a little bit see-through */
+                    .prev:hover, .next:hover {
+                      background-color: rgba(0,0,0,0.8);
+                    }
+
+                    /* Caption text */
+                    .text {
+                      color: #f2f2f2;
+                      font-size: 15px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      bottom: 8px;
+                      width: 100%;
+                      text-align: center;
+                    }
+
+                    /* Number text (1/3 etc) */
+                    .numbertext {
+                      color: #f2f2f2;
+                      font-size: 12px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      top: 0;
+                    }
+
+                    /* The dots/bullets/indicators */
+                    .dot {
+                      cursor: pointer;
+                      height: 15px;
+                      width: 15px;
+                      margin: 0 2px;
+                      background-color: #bbb;
+                      border-radius: 50%;
+                      display: inline-block;
+                      transition: background-color 0.6s ease;
+                    }
+
+                    .active, .dot:hover {
+                      background-color: #717171;
+                    }
+
+                    /* Fading animation */
+                    .fade {
+                      -webkit-animation-name: fade;
+                      -webkit-animation-duration: 1.5s;
+                      animation-name: fade;
+                      animation-duration: 1.5s;
+                    }
+
+                    @-webkit-keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 1}
+                    }
+
+                    @keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 1}
+                    }
+        </style>
+        <div>
+            <p>
+                Chef Deb Green (Grandama Green) and staff are happy you are here to appreciate our food. GG's pastas sauces, soups, backed good and breads
+                are all house made with love and care. We spend hours preparing and baking so that your food will be tender and perfectly delicous.
+            </p>
+            <p>Sit, eat and enjoy!</p>
+            <p>Thank you for dining with us and hope to see you again</p>
+
+        </div>
+    </center>
+</body>
+</html>

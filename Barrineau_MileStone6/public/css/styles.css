@@ -1,0 +1,134 @@
+
+body {
+    background-color: rgb(0, 100, 0);
+    color: white;
+}
+.class_title{
+    width: 25%;
+}
+#theform{
+    width: 50%;
+
+}
+#thesubmit {
+    width: 60%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(102, 255, 50);
+}
+.navigation_bar {
+    overflow: hidden;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(102, 255, 50);
+    color:black;
+}
+
+    .navigation_bar a {
+        float: left;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.drop_down_link {
+    float: left;
+    overflow: hidden;
+    
+}
+
+    .drop_down_link .drop_down_header {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: inherit;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navigation_bar a:hover, .drop_down_link:hover .drop_down_header {
+        background-color: black;
+        color: rgb(102, 255, 50);
+    }
+
+.drop_down_link_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+
+}
+
+    .drop_down_link_content a {
+        float: none;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: black;
+        color: rgb(102, 255, 50);
+    }
+
+        .drop_down_link_content a:hover {
+            background-color: rgb(0, 100, 0);
+            color: white;
+        }
+
+.drop_down_link:hover .drop_down_link_content {
+    display: block;
+}
+.db_output_table {
+    border: double black;
+    font-size: 20px;
+    text-align:center;
+}
+.tableDescrpt {
+    text-align: center;
+    width: 40%;
+    border: double black 1px;
+
+}
+.db_output_table tbody tr:nth-child(odd) {
+    background: rgb(0, 100, 0);
+}
+#Open {
+    background: darkred;
+    color:white;
+}
+#Closed {
+    background-color: lightgreen;
+    color: black;
+}
+
+.db_output_table .mtTitle {
+    background: rgb(238, 246, 231);
+    font-size: 30px;color:black;
+
+}
+.db_output_table table td{
+    width:500%;
+}
+.mtTable, .detailsTable {
+    border: groove rgb(9, 176, 70) 5px;
+}
+#TotalRow {
+    background: rgb(9, 176, 70);
+    font-size: 30px;
+    color: white;
+}
+#reportNav {
+    font-size: 20px;
+    color: white;
+}
+.detailsTable {
+    width:50%;
+}
+    .detailsTable .totalRow td {
+        border-top: dashed black;
+        font-size: 24px;
+        background: lightgreen;
+        color:black;
+    }

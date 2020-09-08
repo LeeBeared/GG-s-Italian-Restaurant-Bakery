@@ -1,0 +1,72 @@
+
+#mapCon {
+    width: 100%;
+}
+
+body {
+    color: rgb(9, 176, 70);
+    font-size: 30px;
+}
+
+    body div {
+        width: 50%;
+    }
+
+#giftBox {
+    background: rgb(238, 246, 231);
+}
+
+.custNav a {
+    width: 10%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 999px) {
+    #mapCon {
+        background: rgb(238, 246, 231);
+        width: 100%;
+        font-size: 20px;
+    }
+
+        #mapCon #content_box {
+            padding-top: 4em;
+            float: none;
+        }
+
+    .custNav a {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .custNav a {
+        width: 10%;
+    }
+
+    #mapCon {
+        background: rgb(238, 246, 231);
+        width: 60%;
+        font-size: 20px;
+    }
+    #giftBox #Giftform {
+        padding-top: 4em;
+        float: left;
+        background: rgb(238, 246, 231);
+    }
+    #giftoptions div{
+        float:left;
+        width:30%;
+    }
+
+
+
+    #giftBox #Balanceform {
+        padding-top: 4em;
+        float: right;
+        background: rgb(238, 246, 231);
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Barrineau_MileStone6", "Barrineau_MileStone6\Barrineau_MileStone6.njsproj", "{9305A9EC-53D2-4D4F-A06D-8CBC59C1CBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9305A9EC-53D2-4D4F-A06D-8CBC59C1CBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9305A9EC-53D2-4D4F-A06D-8CBC59C1CBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9305A9EC-53D2-4D4F-A06D-8CBC59C1CBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9305A9EC-53D2-4D4F-A06D-8CBC59C1CBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C892FB38-E62B-4FAC-926E-81BB10D5025A}
+	EndGlobalSection
+EndGlobal

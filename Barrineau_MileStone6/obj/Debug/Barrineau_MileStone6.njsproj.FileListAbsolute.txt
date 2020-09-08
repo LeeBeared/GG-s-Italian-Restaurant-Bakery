@@ -1,0 +1,2 @@
+D:\webpage\Barrineau_Capstone\Barrineau_MileStone6\Barrineau_MileStone6\obj\Debug\Barrineau_MileStone6.njsprojAssemblyReference.cache
+D:\webpage\Barrineau_Capstone\Barrineau_MileStone6\Barrineau_MileStone6\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,17 @@
+{
+  "name": "barrineau_milestone3",
+  "version": "0.0.0",
+  "description": "Barrineau Milestone3 Houses the indivual portion of Capstone MileStone 3 Project in 262",
+  "main": "server.js",
+  "author": {
+    "name": "LeeWayne Barrineau"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "react": "^16.12.0"
+  }
+}

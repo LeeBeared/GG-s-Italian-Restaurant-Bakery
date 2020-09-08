@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/gift.css" />
+    <title>Restuarant About Us</title>
+</head>
+<body>
+    <center>
+        <nav class="custNav">
+            <a href="../webpages/aboutus.html"><img class="navBar" id="giftButton" src="../photo/about.png" /></a>
+            <a href="../webpages/menu.html"><image class="navBar" src="../photo/menu.png"></image></a>
+            <a href="../webpages/home.html"><image class="logo" src="../photo/gg.png"></image></a>
+            <a href="../webpages/order.html"><image class="navBar" src="../photo/order.png"></image></a>
+            <a href="../webpages/gift.html"><img class="navBar" id="giftButton" src="../photo/gift.png" /></a>
+
+        </nav>
+    </center>
+
+
+    <center>
+        <div id="giftBox">
+            
+            <div id="Giftform" name="Giftform">
+
+                <p>Purchase Gift Card</p>
+                <div id="giftoptions">
+                    <center><div id=""><image src="../photo/gg.png" width="150" height="100"></image></div></center>
+                </div><br /><br />
+            <form>
+                
+                <table>
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <input type="number" classname="giftInput" min="1" />
+                                    <p>Enter Amount</p>
+                                </center>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="text" classname="giftInput" />
+                                <p>Name</p>
+                            </td>
+                            <td>
+                                <input type="text" classname="giftInput" />
+                                <p>Address</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" classname="giftInput" />
+                                <p>Card Number</p>
+                            </td>
+                            <td>
+                                <input type="text" classname="giftInput" />
+                                <p>CVC</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="date" classname="giftInput" min="2020-06-05" max="2021-12-05" default="2020-06-05" />
+                                <p>Experation Date</p>
+                            </td>
+                            <td>
+                                <input type="text" classname="giftInput" />
+                                <p>Coupon Code</p>
+                            </td>
+                        </tr>
+                </table>
+                <input type="submit" name="thesubmit" value="Buy Gift Card" id="thesubmit" onclick=""/>
+            </form>
+        </div>
+            <div id="Balanceform" name="Balanceform">
+                <form>
+                    <h2>Check Balanace</h2>
+                    <input type="text" placeholder="Enter Your Gift Card Number Here"/>
+                    <input type="submit" value="Check Bal"/>
+                </form>
+                <p>Your Amount is:</p>
+                <input type="text" disabled/>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
